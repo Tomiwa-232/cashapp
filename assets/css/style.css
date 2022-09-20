@@ -83,7 +83,7 @@ h6 {
   z-index: 997;
   transition: all 0.5s;
   padding: 22px 0;
-  top: 82;
+  top: 50;
   background: #fff;
 }
 
@@ -109,7 +109,7 @@ h6 {
 
 #header .logo h1 a,
 #header .logo h1 a:hover {
-  color: #3a3a3a;
+  color: #3a3a3a !important;
   text-decoration: none;
 }
 
@@ -270,7 +270,7 @@ h6 {
 }
 
 .mobile-nav-toggle.bi-x {
-  color: #fff;
+  color: #000000;
 }
 
 @media (max-width: 991px) {
@@ -391,6 +391,10 @@ color: #fff !important;
   margin-bottom: 50px;
   font-size: 18px;
   font-weight: 400;
+}
+
+#hero h2 span{
+    font-weight: bold;
 }
 
 #hero .btn-get-started {
